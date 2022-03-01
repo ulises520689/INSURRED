@@ -1,0 +1,298 @@
+footer{
+    background-color:#8e97aa;
+}
+
+footer div div div h5, p{
+    color: white;
+    margin: 0;
+    text-align: justify;
+}
+footer div div .contacto p{
+   
+    text-align: center;
+}
+
+footer div div{
+    padding:5px;
+}
+
+footer #pie{
+    background-color:#006fb4;
+    padding: 0px;
+    margin: 0PX;
+}
+
+footer div div .linea{
+    border-right: 2px solid white;
+} 
+
+.my-div-banner{
+    width: 18%;
+    padding: 0%;
+    margin: 1%;
+    float: left;
+}
+.my-div-banner2{
+    width: 33%;
+    padding: 0%;
+    margin: 1%;
+    float: left;
+}
+
+
+.sucursal-item{
+	position: relative;
+	overflow: hidden;
+
+}
+
+.sucursal-item:hover .sucursal-text{
+	transform: translateY(0%);
+}
+.sucursal-item:hover .sucursal-nombre{
+	transform: translateY(0%);
+}
+
+
+.nombreSucursal{
+	position: absolute; 
+	width: 100%; 
+	bottom: 0%; 
+	left: 50%; transform: translate(-50%, -50%); 
+	color: #fff;
+}
+
+.imagenSucursal{
+    position: relative;
+    width: 100%;
+}
+
+.sucursal-text{
+	position: absolute;
+	width: 100%;
+	height: 100%; 
+	bottom: 0px;
+	padding-bottom:  20px;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: white;
+	font-size: 12px;
+	background-color: rgba(0,0,0,0.7);
+	transform: translateY(100%);
+	transition: all 0.5s ease-out;
+	text-align: center center;
+	border: 3px solid #006fb4;
+}
+
+.sucursal-nombre{
+	position: absolute;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+	height: 50%;
+	bottom: 100%;
+	padding-bottom:  20px;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: white;
+	font-size: 12px;
+	transform: translateY(200%);
+	transition: all 0.5s ease-out;
+	text-align: center center;
+}
+
+.nombreSucursal{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nombreSucursal2{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.my-div-como-cotizar{
+    width: 20%;
+}
+.my-div-como-cotizardos{
+    width: 20%;
+}
+
+.text-como-cotizar{
+    text-align: center;
+    font-weight: bold;
+}
+
+.miestilo {
+    text-align: center;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .miestilo {
+        font-size: 5px;
+    }
+}
+
+.img-como-cotizar{
+    display:block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;   
+        transform:scale(1);
+        -ms-transform:scale(1);
+        -moz-transform:scale(1); 
+        -webkit-transform:scale(1); 
+        -o-transform:scale(1); 
+        -webkit-transition: all 500ms ease-in-out;
+        -moz-transition: all 500ms ease-in-out; 
+        -ms-transition: all 500ms ease-in-out; 
+        -o-transition: all 500ms ease-in-out; 
+}
+
+.img-como-cotizar:hover{
+    transform:scale(0.8);
+    -ms-transform:scale(0.8);
+    -moz-transform:scale(0.8); 
+    -webkit-transform:scale(0.8); 
+    -o-transform:scale(0.8); 
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+
+.como-cotizar{
+    background-image: url('img/pasos.jpg');
+    color: white;
+    text-align: center;
+    padding: 3%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+@media (max-width: 778px) {
+    .my-div-banner{
+        width: 33.33%;
+        padding: 0%;
+        margin: 0%;
+        float: left;
+    }
+
+    .my-div-banner2{
+        width:50%;
+        padding: 0%;
+        margin: 0%;
+        float: left;
+    }
+
+    .my-div-como-cotizar{
+        width: 50%;
+        padding: 0%;
+        margin: 0%;
+        float: left;
+    }
+    .my-div-como-cotizardos{
+        width: 50%;
+        padding: 0%;
+        margin: 0%;
+        float: left;
+    }
+}
+
+
+.my-img{
+    width: 100%;
+    position: relative;
+}
+
+
+.txtServicios{
+    color: #8e97aa;
+    text-align: center;
+}
+
+.my-col-servicio{
+    padding: 0%;
+    margin: 2%;
+    text-align: center;
+}
+@media (max-width: 988px) {
+    .my-col-servicio{
+        padding: 0%;
+        margin: 0%;
+        text-align: center;
+    }
+    .my-div-como-cotizar{
+        width: 33.33%;
+        padding: 0%;
+        margin: 0%;
+        float: left;
+    }
+    .my-div-como-cotizardos{
+        width: 20%;
+        padding: 0%;
+        margin: 0%;
+        float: left;
+    }
+  }
+
+.my-img-servicios{
+    width: 100px;
+	margin-bottom: -5px;
+	transition: all 0.3s ease-out;
+	position: relative;
+	z-index: 2;
+}
+
+.my-img-servicios:hover{
+    transform: scale(1.5, 1.5);
+	z-index: 9;
+}
+
+.my-text-servicios{
+    color: #8e97aa;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.boton3 {
+    margin-top:10px;
+    margin-bottom:15px;
+    padding: 0.5em 1.2em;
+    position: relative;
+}
+  .boton3:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 8px 32px white;
+    transition: all 0.2s ease;
+  }
+
+.boton4 {
+    padding: 0.5em 1.2em;
+    position: relative;
+}
+  .boton4:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 8px 32px rgb(44, 167, 216);
+    transition: all 0.2s ease;
+  }
+  
+
+
+#contacto div img{
+    width: 90%;
+    padding: 10px;
+}
+#padron div img{
+    width: 90%;
+    padding: 10px;
+}
+

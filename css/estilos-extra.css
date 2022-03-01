@@ -1,0 +1,275 @@
+
+@font-face {
+    font-family: pageFontText;
+    src: url(/css/times_new_roman/timesbd.ttf);
+}  
+  
+
+/*items-nav*/
+
+h1, h2, h3, h4,  h5, p, a,  .mylidos , .list-group-item, .text-como-cotizar{
+    font-family: pageFontText !important;
+}
+
+.mylidos{
+    
+    color: black;
+}
+.mylidos:hover{
+    
+   
+    font-weight: bold;
+    background-color: rgb(210, 210, 210);
+    box-shadow: 100px 100px #000;
+    border-bottom:solid 2px #4F2C1D; 
+    
+}
+
+.foot-section{
+    font-family: pageFontText;
+    display:  inline-block;
+    background-color: #4F2C1D;
+    padding: 10px;
+    margin: 20px;
+    width: 20%;
+    height: auto;
+    align-content: center;
+    border-right: 10px solid#D6CD8D;
+
+}
+
+.foot-text{
+    color:white;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container-grid{
+ background-color: #4f2c1d;
+ display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 1;
+    gird-gap: 30px;
+
+}
+
+.item-grid{
+    padding: 5px;;
+    background-color: #4f2c1d;
+    opacity: .5;
+    justify-items: center;
+    align-items: center;
+    margin: 10px;    
+    border-right: 5px solid #D6CD8D;
+    color: rgb(255, 255, 255);
+    
+
+}
+.grid-tittle{
+    position: relative;
+    text-align: center;
+    padding-bottom: 10px;;
+    border-bottom: 5px solid #D6CD8D;
+}
+
+.item-grid  ul  li {
+    list-style: none;
+    line-height: 1;
+    color: #FFF;
+}
+
+.item-grid  .grid-list li a{
+  
+    color: #FFF;
+}
+
+.container-grid-list{
+    position: relative;;
+    top: 10px;
+    align-items: center;
+    align-content: center;    
+             
+}
+
+.container-grid-list ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    
+}
+.container-grid-list ul li{
+    display: block;
+    padding: 5px;
+    line-height: 1;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+.item-grid .container-grid-list ul li:hover,
+.item-grid .container-grid-list ul li:hover a{
+  
+    background-color: #FFF;
+    color: #4f2c1d;
+
+}
+@media (max-width: 768px) { 
+    .container-grid{
+        background-color: #4f2c1d;
+        display: grid;;
+           grid-template-rows: repeat(4, fr);;
+           grid-template-columns: 100%;
+     
+       
+       }
+       .item-grid{
+        padding: 5px;;
+        background-color: #4f2c1d;
+        opacity: .5;
+        justify-items: center;
+        align-items: flex-end;
+        margin: 5px;    
+        border-right: 5px solid #D6CD8D;
+        color: rgb(255, 255, 255);
+        
+    
+    }
+       .grid-tittle{
+        text-size-adjust: 1;
+        position: relative;
+        text-align: center;
+       
+        border-bottom: 5px solid #D6CD8D;
+    }
+        .container-grid-list{
+            position: static;;
+            top: 10px;
+            align-items: center;
+            align-content: center;   
+            border-bottom: 2px solid #222222;
+            padding-inline-end: 1px;
+
+                    
+        }
+        
+
+       
+}
+/*Mision Vision*/
+.container-grid-card{
+    background-color: #FFF;
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    grid-template-rows: 1;
+    border-color: #000;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    align-content: center;
+    padding: 3px;
+}
+
+.item-grid-card{
+   background-color: rgb(192, 158, 8);
+   box-shadow: 4px 3px  #555;
+   width: auto;
+   
+   margin: 10px;
+   padding: 20px;
+   align-items: center;
+   justify-content: center;
+   align-content: center;
+   justify-self: center;
+
+}
+
+/*Nosotros/Valores*/
+
+.container-grid-card-col4{
+    background-color: #FFF;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: 1;
+    border-color: #000;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #000;
+    align-content: center;
+    padding: 3px;
+    
+}
+
+.item-grid-card-col4{
+   background-color: rgb(226, 230, 24);
+   width: auto;
+   border: 2px solid rgb(243, 242, 242);
+   margin: 1px;
+   padding: 1px;
+   align-items: center;
+   justify-content: center;
+   align-content: center;
+   justify-self: center;
+   border-radius: 30%;
+
+}
+
+.item-grid-card-col4:hover{
+  border: 2px solid aqua;
+  box-shadow: 5px 5px  5px 5px rgb(16, 221, 170);
+ }
+
+
+/*Modificando bootstrap*/
+ .card{
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.item-grid-card-col4 .card img{
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 30%;
+}
+
+.carousel-item{
+    max-height: 400px;
+}
+
+.carousel-item img{
+display: block;
+margin: auto;
+object-fit: cover;
+width: 800;
+}
+
+.item-grid-card-col4  .card{
+    border-radius: 100%;
+}
+
+
+.section-divisor{
+
+    padding: 20px;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-line::before,
+.section-line::after{
+    content: '';
+    background-color: rgb(7, 12, 12);
+    height: 0.1rem;
+    width: 30%;
+    margin: 0 2rem;
+}
+
+
+

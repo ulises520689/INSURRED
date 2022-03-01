@@ -1,0 +1,52 @@
+.miimagenlogo{
+    width: 130%;
+}
+.mynavbardos{
+   margin-top: 20px;
+}
+.mylinkactive{
+    border-bottom:solid 2px #4F2C1D; 
+}
+.mydivcolapsed{
+    margin-top: 40px;
+}
+.mylidos{
+    font-family: arial;
+    color: black;
+}
+.mylidos:hover{
+    
+    font-family: arial;
+    font-weight: bold;
+    background-color: rgb(210, 210, 210);
+    box-shadow: 100px 100px #000;
+    border-bottom:solid 2px #4F2C1D; 
+    
+}
+.mybuttoncolapsed{
+    height: 80px;
+    
+}
+@font-face {
+    font-family: arial;
+    src: url(fonts/Arial.ttf);
+}
+@font-face {
+    font-family: gillsans;
+    src: url(fonts/gillsans.ttf);
+}
+@font-face {
+    font-family: gillsansbold;
+    src: url(fonts/gillsansbold.ttf);
+}
+
+@media (max-width: 900px) {
+    .mydivcolapsed {
+      background-color: white;
+    }
+    
+    ::-webkit-scrollbar { 
+        display: none; 
+    }
+  }
+ 

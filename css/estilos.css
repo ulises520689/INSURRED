@@ -1,0 +1,242 @@
+/*Header estilos*/
+.miimagenlogo{
+    width: 130%;
+}
+.mynavbardos{
+   margin-top: 20px;
+}
+.mylinkactive{
+    border-bottom:solid 2px #4F2C1D; 
+}
+.mydivcolapsed{
+    margin-top: 40px;
+}
+.mylidos>a{
+    font-family: arial;
+    color: black;
+}
+.mylidos>a:hover{
+    
+    font-family: arial;
+    font-weight: bold;
+    border-bottom:solid 2px #4F2C1D; 
+    
+}
+.mybuttoncolapsed{
+    height: 80px;
+    
+}
+@font-face {
+    font-family: arial;
+    src: url(fonts/Arial.ttf);
+}
+@font-face {
+    font-family: gillsans;
+    src: url(fonts/gillsans.ttf);
+}
+@font-face {
+    font-family: gillsansbold;
+    src: url(fonts/gillsansbold.ttf);
+}
+
+@media (max-width: 900px) {
+    .mydivcolapsed {
+      background-color: white;
+    }
+    
+    ::-webkit-scrollbar { 
+        display: none; 
+    }
+  }
+ 
+/*Progress*/
+
+@media (min-width: 1800px) {
+    #alignHead{
+        top: 50%;
+    }
+    #textHead{
+        font-size: 35px;	
+    }
+}
+@media (min-width: 1500px) and (max-width:1799px) {
+    #alignHead{
+        top: 50%;
+    }
+    #textHead{
+        font-size: 35px;	
+    }
+}
+@media (min-width: 1200px) and (max-width:1499px) {
+    #alignHead{
+        top: 50%;
+    }
+    #textHead{
+        font-size: 35px;	
+    }
+}
+@media (min-width: 900px) and (max-width:1199px) {
+    #alignHead{
+        top: 50%;
+    }
+    #textHead{
+        font-size: 35px;	
+    }
+}
+@media (min-width: 767px) and (max-width: 899px) {
+    #alignHead{
+        top: 50%;
+    }
+    #textHead{
+        font-size: 25px;	
+    }
+    .texto_ {
+        font-size: 1.8vmax !important;
+    }
+
+    body {
+        margin-top: 150px;
+    }
+}
+@media (min-width: 0px) and (max-width: 766px) {
+    
+    #alignHead{
+        top: 20%;
+    }
+    #textHead{
+        font-size: 16px;	
+    }
+
+    .texto_ {
+        font-size: 3vmax !important;
+    }
+}	
+    #loader {
+       bottom: 0;
+       height: 175px;
+       left: 0;
+       margin: auto;
+       position: absolute;
+       right: 0;
+       top: 0;
+       width: 175px;
+       }
+       .texto_ {
+       text-align: center;
+       color: white;
+       font-size: 1vmax;
+       }
+
+       #loader {
+       bottom: 0;
+       height: 175px;
+       left: 0;
+       margin: auto;
+       position: absolute;
+       right: 0;
+       top: 0;
+       width: 175px;
+       }
+       #loader .dot {
+       bottom: 0;
+       height: 100%;
+       left: 0;
+       margin: auto;
+       position: absolute;
+       right: 0;
+       top: 0;
+       width: 87.5px;
+       }
+       #loader .dot::before {
+       border-radius: 100%;
+       content: "";
+       height: 87.5px;
+       left: 0;
+       position: absolute;
+       right: 0;
+       top: 0;
+       transform: scale(0);
+       width: 87.5px;
+       }
+       #loader .dot:nth-child(7n+1) {
+       transform: rotate(45deg);
+       }
+       #loader .dot:nth-child(7n+1)::before {
+       animation: 0.8s linear 0.1s normal none infinite running load;
+       background: #99bd73 none repeat scroll 0 0;
+       }
+       #loader .dot:nth-child(7n+2) {
+       transform: rotate(90deg);
+       }
+       #loader .dot:nth-child(7n+2)::before {
+       animation: 0.8s linear 0.2s normal none infinite running load;
+       background: #58733c none repeat scroll 0 0;
+       }
+       #loader .dot:nth-child(7n+3) {
+       transform: rotate(135deg);
+       }
+       #loader .dot:nth-child(7n+3)::before {
+       animation: 0.8s linear 0.3s normal none infinite running load;
+       background: #2f4319 none repeat scroll 0 0;
+       }
+       #loader .dot:nth-child(7n+4) {
+       transform: rotate(180deg);
+       }
+       #loader .dot:nth-child(7n+4)::before {
+       animation: 0.8s linear 0.4s normal none infinite running load;
+       background: #182e4b none repeat scroll 0 0;
+       }
+       #loader .dot:nth-child(7n+5) {
+       transform: rotate(225deg);
+       }
+       #loader .dot:nth-child(7n+5)::before {
+       animation: 0.8s linear 0.5s normal none infinite running load;
+       background: #1d4c89 none repeat scroll 0 0;
+       }
+       #loader .dot:nth-child(7n+6) {
+       transform: rotate(270deg);
+       }
+       #loader .dot:nth-child(7n+6)::before {
+       animation: 0.8s linear 0.6s normal none infinite running load;
+       background: #345cde none repeat scroll 0 0;
+       }
+       #loader .dot:nth-child(7n+7) {
+       transform: rotate(315deg);
+       }
+       #loader .dot:nth-child(7n+7)::before {
+       animation: 0.8s linear 0.7s normal none infinite running load;
+       background: #4c83cb none repeat scroll 0 0;
+       }
+       #loader .dot:nth-child(7n+8) {
+       transform: rotate(360deg);
+       }
+       #loader .dot:nth-child(7n+8)::before {
+       animation: 0.8s linear 0.8s normal none infinite running load;
+       background: #4c83cb none repeat scroll 0 0;
+       }
+       #loader .lading {
+       /* background-image: url("img/loading.gif"); */
+       object-fit: cover;
+       background-position: center center;
+       background-repeat: no-repeat;
+       bottom: -40px;
+       height: 80px;
+       left: 0;
+       position: absolute;
+       right: 0;
+       width: 300px;
+       overflow: hidden;
+       visibility: hidden;
+       }
+       @keyframes load {
+       100% {
+           opacity: 0;
+           transform: scale(1);
+       }
+       }
+       @keyframes load {
+       100% {
+           opacity: 0;
+           transform: scale(1);
+           }
+       }
